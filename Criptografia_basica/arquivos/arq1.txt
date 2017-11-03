@@ -1,0 +1,3 @@
+Ementa:
+
+Princípios em segurança da informação. Análise de Riscos. Leis, normas e padrões de segurança da informação. Auditoria de sistemas. Autenticação e controle de acesso. Aspectos tecnológicos da segurança da informação. Plano de continuidade do negócio. Boas práticas em segurança da informação.

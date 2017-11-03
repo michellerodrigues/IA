@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE
+hibernate-configuration
+PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property
+            name="hibernate.connection.url">jdbc:mysql://localhost:3306/seguranca</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">1234</property>
+        <property name="hibernate.connection.pool_size">10</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- List of annotated classes -->
+        <mapping class="model.Mensagem"/>
+        <mapping class="model.Usuario"/>
+        <mapping class="model.Registro"/>
+        <mapping class="model.OneTimePassword"/>
+        <mapping class="model.TanList"/>
+    </session-factory>
+</hibernate-configuration>
